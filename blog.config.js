@@ -1,6 +1,6 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/article/how-to-config-notion-next#c4768010ae7d44609b744e79e2f9959a
 const BLOG = {
-  // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  // Important page_id！！！Duplicate Template from  https://daily-toque-7dd.notion.site/bb9c41d4974947dc837e8f327ef5fe59?v=61b61934b2724ad99f292b282cf43b1d&pvs=4
   NOTION_PAGE_ID:
         process.env.NOTION_PAGE_ID || 'bb9c41d4974947dc837e8f327ef5fe59',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
@@ -13,13 +13,13 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，我是一枚程序员, Hi，我是一个学生,Hi，我喜欢研究新技术,欢迎来到我的博客🎉',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi，我是一枚程序员, Hi，我是一个学生,Hi，我喜欢新技术,欢迎来到我的博客🎉',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '信哲', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个热爱技术的小白', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://xinzhe-ldgqkc3s1-xinzhe.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '信哲的小站', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
