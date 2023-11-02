@@ -1,13 +1,13 @@
 const CONFIG = {
 
   HEADER_BUTTON_1_TITLE: 'Github开源',
-  HEDEAR_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
+  HEDEAR_BUTTON_1_URL: 'https://github.com/Pride-Setsuna/NotionNext',
 
   HEADER_BUTTON_2_TITLE: '作者博客',
-  HEDEAR_BUTTON_2_URL: 'https://blog.tangly1024.com/',
+  HEDEAR_BUTTON_2_URL: 'https://www.shintetu.com',
 
   // 首页大图英雄板块
-  HERO_TITLE_1: 'NotionNext',
+  HERO_TITLE_1: '信哲のブログ',
   HERO_P_1: '快速搭建独立站、轻松放大品牌价值！',
   HERO_BUTTON_1_TEXT: '开始体验',
   HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
@@ -58,7 +58,7 @@ const CONFIG = {
   TESTIMONIALS_WORD: '“ 感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ “',
 
   POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
-  POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
+  POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://www.shintetu.com', // 重定向网站地址
 
   NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
